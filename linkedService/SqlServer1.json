@@ -1,0 +1,23 @@
+{
+	"name": "SqlServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"parameters": {
+			"DatabaseName": {
+				"type": "string",
+				"defaultValue": "Sanjay"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=DESKTOP-RPHPDB5\\SQLEXPRESS;initial catalog=@{linkedService().DatabaseName}",
+			"userName": "DESKTOP-RPHPDB5\\sanjay.prasanna_iste",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJlYjZmMzk0Zi1kMGZjLTRhMTAtOWRiMi0yMmJkZTE1NjI1NjEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SanjaySelfHosted",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

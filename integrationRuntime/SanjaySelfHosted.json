@@ -1,0 +1,6 @@
+{
+	"name": "SanjaySelfHosted",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

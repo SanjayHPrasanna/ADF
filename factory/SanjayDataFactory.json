@@ -1,0 +1,9 @@
+{
+	"name": "SanjayDataFactory",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a698f721-582b-4d1e-aa12-4f51be6a3e4c",
+		"tenantId": "5d1472cd-a106-4d39-8027-251fe97e2f40"
+	}
+}
